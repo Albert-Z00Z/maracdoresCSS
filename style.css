@@ -1,0 +1,79 @@
+
+body {
+  background-color: rgb(180,180,255);
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(200, 200, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(162, 27, 27, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #116C31;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 hsl(240, 56%, 42%, 0.8);
+}
+
+.black {
+  background: linear-gradient(rgb(0, 0, 14), rgb(125, 125, 125), rgb(0, 0, 27));
+  box-shadow: 0 0 20px 0 rgba(125, 125, 125, 0.8);
+}
+
+  .mint {
+  background: linear-gradient(#045320, #0ef39e, #045320);
+  box-shadow: 0 0 20px 0 #045320;
+  }
+
+.yellow {
+  background: linear-gradient(hsl(67, 100%, 25%), hsl(67, 100%, 50%), hsl(67, 99%, 25%));
+  box-shadow: 0 0 20px 0 hsl(67, 100%, 25%, 0.8);
+}
+
+.sky {
+  background: linear-gradient(#1b8899, #1affff, #1b8899);
+  box-shadow: 0 0 20px 0 #1b8899;
+}
+
+.purple {
+  background: linear-gradient(hsl(271, 76%, 16%), hsl(271, 91%, 53%), hsl(271, 76%, 16%));
+  box-shadow: 0 0 20px 0 hsl(271, 56%, 42%, 0.8);
+}
+
+.rose {
+  background: linear-gradient(rgb(255, 50, 174), rgb(255, 152, 205), rgb(255, 50, 174));
+  box-shadow: 0 0 20px 0 rgba(255, 50, 174, 0.8);
+}
